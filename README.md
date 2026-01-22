@@ -14,26 +14,6 @@ It was created as an early-stage learning project and demonstrates simple authen
 
 ---
 
-## 🛠️ Setup Instructions
-
-### 1. Create a Firebase project
-Go to Firebase Console and create a new project.
-
-### 2. Add Android and iOS apps
-Add both Android and iOS apps inside Firebase.
-
-### 3. Download config files
-
-Download these files from Firebase:
-
-- `google-services.json` (Android)
-- `GoogleService-Info.plist` (iOS)
-
-### 4. Add the files to your project
-
-Place them in the following locations:
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist
 
 ⚠️ Important Notes
 
