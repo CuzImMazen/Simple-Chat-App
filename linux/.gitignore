@@ -1,0 +1,45 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Generated.xcconfig
+ios/Runner/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/
+*.xcuserstate
+
+# Android
+android/.gradle/
+android/app/*.iml
+android/local.properties
+android/.idea/
+android/app/build/
+android/build/
+android/app/*.keystore
+
+# Firebase (Important!)
+**/google-services.json
+**/GoogleService-Info.plist
