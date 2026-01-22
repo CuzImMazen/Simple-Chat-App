@@ -1,16 +1,44 @@
-# chat_app
+# Simple Chat App (Firebase)
 
-A new Flutter project.
+This is a basic Flutter chat app built using Firebase.  
+It was created as an early-stage learning project and demonstrates simple authentication and real-time messaging.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- User authentication using Firebase
+- Real-time chat messaging
+- Simple UI for learning purposes
+- Basic state management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Setup Instructions
+
+### 1. Create a Firebase project
+Go to Firebase Console and create a new project.
+
+### 2. Add Android and iOS apps
+Add both Android and iOS apps inside Firebase.
+
+### 3. Download config files
+
+Download these files from Firebase:
+
+- `google-services.json` (Android)
+- `GoogleService-Info.plist` (iOS)
+
+### 4. Add the files to your project
+
+Place them in the following locations:
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+⚠️ Important Notes
+
+This project is basic and not production-ready
+
+Firebase config files are intentionally not included in this repo
+
+You must add your own Firebase files locally
